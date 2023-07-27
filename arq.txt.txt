@@ -1,0 +1,6 @@
+alunos@LAB918:~$ cat note.sh
+#!/bin/bash
+
+echo $(date) >> registro
+cat registro
+echo $1
